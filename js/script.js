@@ -3,7 +3,7 @@
 // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 // 1. creo un ciclo for per stampare i numeri da 1 a 100
-for (var i = 0; i <= 100; i++) {
+for (var i = 1; i <= 100; i++) {
 
     // 2. prendo il primo numero che è sia un multiplo di 3 che di 5, se ha resto = 0 stampo "FizzBuzz"
     if (i % 15 == 0) {
